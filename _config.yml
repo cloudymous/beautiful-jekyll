@@ -57,7 +57,7 @@ author:
 footer-links-active:
   rss: false
   facebook: true
-  email: true
+  email: false
   twitter: true
   google-plus: false
   github: true
