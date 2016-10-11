@@ -4,13 +4,6 @@ title: Tentang Saya
 subtitle: Imran aka Cloudymous
 ---
 
-My name is Inigo Montoya. I have the following qualities:
-
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
-
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+Saya Imran. Sehari-hari saya bekerja di salah satu hotel bintang 3 di Makassar sebagai Junior IT.
+Tertarik dengan Linux, Open Source dan Networking. Meski tidak menguasai semuanya dengan baik.
+Selain itu saya juga menjalankan startup yang fokus di bidang Publikasi dan Dokumentasi dengan nama [tawwamedia](http://www.tawwamedia.com)
