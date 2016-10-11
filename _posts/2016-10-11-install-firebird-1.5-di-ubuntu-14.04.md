@@ -80,9 +80,8 @@ Proses install akan berlangsung, masukkan password untuk SYSDBA.
 
 Langkah terakhir tambahkan Firebird di **PATH**. Buka file **/etc/profile** dan tambahkan.
 
-~~~
-PATH=$PATH:/opt/firebird/bin
-~~~
+> PATH=$PATH:/opt/firebird/bin
+
 
 Seharusnya firebird sudah jalan cek dengan
 
