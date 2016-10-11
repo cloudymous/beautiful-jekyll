@@ -1,7 +1,11 @@
 ---
 layout: post
 title: Pengalaman Install Firebird 1.5 di Ubuntu Server 14.04 64 Bit
-tags: [Kerjaan, Server, Database]
+tags:
+  - Kerjaan
+  - Server
+  - Database
+published: true
 ---
 
 Menurut [wikipedia](https://en.wikipedia.org/wiki/Firebird_(database_server))
@@ -98,5 +102,6 @@ root@host:~# telnet localhost 3050
 Selamat mencoba, semoga bermanfaat.
 
 **Referensi**
-- https://www.gefoo.org/install-firebird-1-5-classic-server-on-ubuntu-64bit.html
-- http://askubuntu.com/questions/522372/installing-32-bit-libraries-on-ubuntu-14-04-lts-64-bit
+
+-https://www.gefoo.org/install-firebird-1-5-classic-server-on-ubuntu-64bit.html
+-http://askubuntu.com/questions/522372/installing-32-bit-libraries-on-ubuntu-14-04-lts-64-bit
