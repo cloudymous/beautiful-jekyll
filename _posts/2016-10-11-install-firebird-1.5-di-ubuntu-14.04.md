@@ -4,8 +4,9 @@ title: Pengalaman Install Firebird 1.5 di Ubuntu Server 14.04 64 Bit
 tags: [Kerjaan, Server, Database]
 ---
 
-Menurut [wikipedia]((https://en.wikipedia.org/wiki/Firebird_(database_server))
-> Firebird is an open source SQL relational database management system that runs on Linux, Microsoft Windows, Mac OS X and a variety of Unix. The database forked from Borland's open source edition of InterBase in 2000, but since Firebird 1.5 the code has been largely rewritten.
+Menurut [wikipedia](https://en.wikipedia.org/wiki/Firebird_(database_server))
+
+> Firebird is an open source SQL relational database management system that runs on Linux, Microsoft Windows, Mac OS X and a variety of Unix. The database forked from Borland's open source edition of InterBase in 2000, but since Firebird 1.5 the code has been largely rewritten
 
 Kalau boleh jujur, ini adalah pertama kali saya tahu kalau ada RDMS lain selain MySQL dan MariaDB. Kantor saya menggunakan aplikasi yang sistem databasenya menggunakan Firebird. Entah apa yang jadi pertimbangan untuk menggunakan Firebird.
 
@@ -39,7 +40,8 @@ root@host:/# apt-get install package:i386
 
 Untuk menginstall Firebird, kita butuh versi 5.x untuk http://gcc.gnu.org/libstdc++/. Menurut sumber yang saya baca, versi ini sudah tidak diinclude di Ubuntu versi 8.04 >. Kita butuh sedikit trik untuk memasukkan librarynya.
 Pertama, Download file **libstdc++5_3.3.6-17ubuntu1_i386.deb** secara manual di
-> old.releases.ubuntu.com/ubuntu/pool/universe/g/gcc-3.3/.
+
+> old.releases.ubuntu.com/ubuntu/pool/universe/g/gcc-3.3/
 
 Setelah terdownload, extract dengan perintah
 
