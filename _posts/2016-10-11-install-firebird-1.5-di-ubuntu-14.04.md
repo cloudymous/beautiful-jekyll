@@ -76,7 +76,7 @@ root@host:~# cd FirebirdCS-1.5.6.5026-0.i686
 root@host:~# ./install.sh
 ~~~
 
-Proses install akan berlangsung, masukkan password untuk SYSDBA.
+Proses install akan berlangsung, masukkan password untuk SYSDBA. Saya menggunakan password default __masterkey__. 
 
 Langkah terakhir tambahkan Firebird di **PATH**. Buka file **/etc/profile** dan tambahkan.
 
