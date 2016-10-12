@@ -103,5 +103,5 @@ Selamat mencoba, semoga bermanfaat.
 
 **Referensi.**
 
--https://www.gefoo.org/install-firebird-1-5-classic-server-on-ubuntu-64bit.html
--http://askubuntu.com/questions/522372/installing-32-bit-libraries-on-ubuntu-14-04-lts-64-bit
+- https://www.gefoo.org/install-firebird-1-5-classic-server-on-ubuntu-64bit.html
+- http://askubuntu.com/questions/522372/installing-32-bit-libraries-on-ubuntu-14-04-lts-64-bit
