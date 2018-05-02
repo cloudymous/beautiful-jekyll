@@ -24,23 +24,18 @@ Sebelumnya saya tampilkan spesifikasi server:
 
 Oke kita langsung saja.
 
-Pertama-tama kita install paket **lib32ncurses5** dan **openbsd-intd**.
+Pertama-tama kita install paket **lib32ncurses5** dan **openbsd-inetd**.
 
 ~~~
-root@host:/# apt-get install lib32ncurses5 openbsd-intd
+root@host:/# apt-get install lib32ncurses5 openbsd-inetd
 ~~~
 
-Setelah itu kita install paket untuk 32 bit.
+Setelah itu kita install paket libstdc untuk 32 bit.
 
 ~~~
 root@host:/# apt-get install libstdc++6:i386
 ~~~
 
-Setelah itu install paket
-
-~~~
-root@host:/# apt-get install package:i386
-~~~
 
 Untuk menginstall Firebird, kita butuh versi 5.x untuk http://gcc.gnu.org/libstdc++/. Menurut sumber yang saya baca, versi ini sudah tidak diinclude di Ubuntu versi 8.04 >. Kita butuh sedikit trik untuk memasukkan librarynya.
 Pertama, Download file **libstdc++5_3.3.6-17ubuntu1_i386.deb** secara manual di
@@ -54,6 +49,8 @@ root@host:~# ar xv libstdc+5_3.3.6-17ubuntu1_i386.deb
 root@host:~# tar xzvf data.tar.gz
 ~~~
 
+Perintah diatas akan membuat libstdc menjadi data.tar.gz yang kemudian di-untar(extract) kembali
+
 Masuk ke directory yang tadi di-extract. Pastikan kalau paketnya 32 bit.
 
 ~~~
@@ -63,6 +60,20 @@ libstdc++.so.5.0.7: ELF 32-bit LSB shared object, Intel 80386, version 1 (SYSV),
 ~~~
 
 Dari pesan diatas dipastikan bahwa paket adalah 32-bit.
+
+Copy file dalam folder lib tadi ke /usr/lib dengan perintah
+
+~~~
+root@host:~/home/{username}/{extract folder}/usr/lib#cp * /usr/lib
+~~~
+
+Pastikan file libstdc++.so.5.0.7 berada di /usr/lib
+
+~~~
+root@host:~#ls -la /usr/lib
+~~~
+
+Jika libstdc sudah berada di folder /usr/lib artinya semua lib sudah terpenuhi.
 
 Sekarang semua lib yang diperlukan telah selesai. Waktunya untuk install Firebird
 
