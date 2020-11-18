@@ -20,7 +20,7 @@ Sebelumnya saya tampilkan spesifikasi server:
 * __Ubuntu Server 14.04.5 64 Bit__
 * __Intel(R) Xeon(R) CPU X3430 @ 2.40 GHz, 4 Cores__
 * __RAM 4 GB__
-* __Untuk Penyimpanan saya menggunakan 2 HDD 500 GB yang disetup RAID 0__
+* __Untuk Penyimpanan saya menggunakan 2 HDD 500 GB yang disetup RAID 1__
 
 Oke kita langsung saja.
 
